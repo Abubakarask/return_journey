@@ -19,8 +19,6 @@ function mergeCars(car1, car2) {
     }
   }
 
-  console.log(mergedCar);
-
   // Copy properties from the second car object, overwriting any existing properties
   for (let key in car2) {
     // Check if the property is not inherited from the prototype chain
@@ -32,8 +30,6 @@ function mergeCars(car1, car2) {
       mergedCar[key].push(car2[key]);
     }
   }
-
-  console.log(mergedCar);
   // Return the merged object
   return mergedCar;
 }
