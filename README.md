@@ -123,6 +123,8 @@ curl -X DELETE http://localhost:3600/api/products/3
 
 ## **Unit Testing**
 ### To run unit tests:
+- Move to folder Task-II
+- Command
 ```bash
 npm test
 ```
