@@ -13,8 +13,8 @@ function uniqueElements(arr) {
     let isDuplicate = false;
 
     // Check if the current element is already in the result array
-    for (let j = 0; j < result.length; j++) {
-      if (arr[i] === result[j]) {
+    for (let j = 0; j < arr.length; j++) {
+      if (arr[i] === arr[j] && i !== j) {
         isDuplicate = true;
         break;
       }
@@ -28,3 +28,8 @@ function uniqueElements(arr) {
 
   return result;
 }
+
+const arr = [1, 2, 3, 4, 5, 6, 7, 7, 9, 10, 10, 9];
+const response = uniqueElements(arr);
+
+console.log(response);

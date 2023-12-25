@@ -1,5 +1,4 @@
 // Logical Operations
-
 /**
  * @param {number[]} arr1 - The first array of integers.
  * @param {number[]} arr2 - The second array of integers.
@@ -25,3 +24,9 @@ function findCommonElements(arr1, arr2) {
   // Return the array containing common elements
   return commonElementsArray;
 }
+
+const arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 9];
+const arr2 = [1, 2, 3, 4, 5, 6, 7];
+const result = findCommonElements(arr1, arr2);
+
+console.log(result);
