@@ -8,8 +8,10 @@ git clone https://github.com/Abubakarask/return_journey.git
 cd return_journey
 ```
 
-2. **config/config.env** --> define a environment variables file named config.env (in config folder) with attributes:
+2. **config/config.env** --> ***define a environment variables file named config.env (in config folder) with attributes:***
+```
                           - PORT
+```
 
 ## TaskI --> Javascript Assignment
 ### i) Navigate to folder Task-I
